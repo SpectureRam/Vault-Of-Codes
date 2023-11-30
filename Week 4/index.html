@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c452b2d42b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/tooplate-style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <title>🎮 Home</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <navbar>
+            <div class="logo"><img src="Assets/logo2.png" alt="Game Logo" width="60px" height="55px"></div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="login-btn"><a href="/">Login</a></div>
+        </navbar>
+    </header>
+
+<section class="cd-hero">
+    <ul class="cd-hero-slider autoplay">  
+        <li class="selected first-slide">
+            <div class="cd-full-width">
+                <div class="tm-slide-content-div slide-caption">
+                    <span>Introduction to</span>
+                    <h2>Arcade Realm</h2>
+                    <p>Arcade Realm is an online gaming platform, providing a diverse and immersive gaming experience for enthusiasts worldwide.</p>
+                    <div class="primary-button">
+                        <a href="games.html" class="scroll-link" data-id="about">Discover More</a>
+                    </div>                           
+                </div>                   
+            </div>
+        </li>
+
+        <li class="second-slide">
+            <div class="cd-full-width">
+                <div class="tm-slide-content-div slide-caption">
+                    <span>We Are Perfect Staffs</span>
+                    <h2>Our Team Members</h2>
+                    <p>Donec dolor ipsum, laoreet nec metus non, tempus elementum massa. Donec non elit rhoncus, vestibulum enim sed, rutrum arcu.</p>
+                    <div class="primary-button">
+                        <a href="#">Read More</a>
+                    </div>                        
+                </div>                     
+            </div> 
+        </li>
+
+        <li class="third-slide">
+            <div class="cd-full-width">
+                <div class="tm-slide-content-div slide-caption">
+                    <span>Design is a hobby</span>
+                    <h2>Responsive Layout</h2>
+                    <p>Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque quis luctus tempus. Vestibulum consequat.</p>
+                    <div class="primary-button">
+                        <a href="#">View Details</a>
+                    </div>                           
+                </div>                         
+            </div> 
+        </li>
+    </ul>
+
+    <div class="cd-slider-nav">
+        <nav>
+            <span class="cd-marker item-1"></span>
+            
+            <ul>
+                <li class="selected"><a href="#0"></a></li>
+                <li><a href="#0"></a></li>
+                <li><a href="#0"></a></li>                        
+            </ul>
+        </nav> 
+    </div> 
+</section>
+
+
+    <section class="hero-section">
+        <h1>Welcome to Our Game Site</h1>
+        <p>Discover exciting games and join the fun!</p>
+    </section>
+    <div id="about" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h4>What We Do</h4>
+                        <div class="line-dec"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item first-service">
+                        <div class="icon"></div>
+                        <h4>Immersive Gaming Experience</h4>
+                        <p>Explore a captivating world of games on Arcade Realm, where thrilling adventures and engaging gameplay await. Enjoy a seamless gaming experience tailored just for you.</p>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item second-service">
+                        <div class="icon"></div>
+                        <h4>Innovative Game Concepts</h4>
+                        <p>Dive into creative and imaginative game ideas at Arcade Realm. From unique storylines to cutting-edge gameplay, our platform offers a variety of games that push the boundaries of gaming innovation.</p>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item third-service">
+                        <div class="icon"></div>
+                        <h4>Rewards and Achievements</h4>
+                        <p>Unlock the potential for good profits at Arcade Realm. Earn rewards, achieve milestones, and level up your gaming journey while enjoying captivating experiences that keep you coming back.</p>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item fourth-service">
+                        <div class="icon"></div>
+                        <h4>Accessible to All Gamers</h4>
+                        <p>Arcade Realm is open to the public, welcoming gamers of all levels. Whether you're a casual player or a seasoned pro, our platform provides an inclusive space for everyone to enjoy the excitement of gaming.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="featured-games">
+        <h2>Featured Games</h2>
+        <div class="game-card" onclick="navigateToTicTacToe()">
+            <img src="Assets/game1.jpg" alt="Game 1" width="200px" height="150px">
+            <h3>Tic Tac Toe Game</h3>
+            <p>Classic strategy game challenging players to align three symbols in a row</p>
+        </div>
+
+        <div class="game-card" onclick="navigateToSnake()">
+            <img src="Assets/game2.jpg" alt="Game 2" width="200px" height="150px">
+            <h3>Snake Game</h3>
+            <p>Navigate the snake to grow longer and avoid collisions in this timeless arcade game</p>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>Learn more about our mission and team.</p>
+        <a href="about.html" class="btn">Read More</a>
+    </section>
+    <br>
+    <div class="footers">
+        <section class="newsletter">
+            <div class="footer-logo">
+                <img src="Assets/logo2.png" alt="Game Logo" width="80px" height="80px">
+            </div>
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with the latest game releases and news.</p>
+                <form>
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <div class="footer-social">
+            <p>Follow us on social media:</p>
+            <a href="https://www.facebook.com/spectureram/" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/spectureram" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/f.a.t.e_p.l.a.y.e.r/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/SpectureRam" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href=" https://www.linkedin.com/in/sairam-n-9566a1254/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Arcade Realm. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

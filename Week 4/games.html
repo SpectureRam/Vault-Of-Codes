@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c452b2d42b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="games.css">
+    <title>Games Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="Assets/logo2.png" width="60px" height="55px"></div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="login-btn"><a href="/">Login</a></div>
+        </nav>
+    </header>
+    
+    <section class="games-section container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="game-card" onclick="navigateToTicTacToe()">
+                    <img src="Assets/game1.jpg" alt="Tic Tac Toe" class="img-fluid">
+                    <h2>Tic Tac Toe</h2>
+                    <p>Click to play the game!</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card" onclick="navigateToSnake()">
+                    <img src="Assets/game1a.png" alt="Tic Tac Toe" class="img-fluid">
+                    <h2>Snake Game</h2>
+                    <p>Click to play the game!</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card" onclick="navigateToRockPaperScissors()">
+                    <img src="Assets/game4.png" alt="Tic Tac Toe" class="img-fluid">
+                    <h2>RPS Game</h2>
+                    <p>Click to play the game!</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card" onclick="navigateToNumberGuess()">
+                    <img src="Assets/game4a.png" alt="Tic Tac Toe" class="img-fluid">
+                    <h2>Number Guess</h2>
+                    <p>Click to play the game!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <section class="newsletter">
+            <div class="footer-logo">
+                <img src="Assets/logo2.png" alt="Game Logo" width="80px" height="80px">
+            </div>
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with the latest game releases and news.</p>
+                <form>
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <div class="footer-social">
+            <p>Follow us on social media:</p>
+            <a href="https://www.facebook.com/spectureram/" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/spectureram" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/f.a.t.e_p.l.a.y.e.r/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/SpectureRam" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href=" https://www.linkedin.com/in/sairam-n-9566a1254/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Arcade Realm. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
